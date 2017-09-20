@@ -1,6 +1,6 @@
 #define DDX_GCC_COMPILE
 #define DDX_NON_INLINE_ASM
-#include "DxLib/Dxlib.h"
+#include "DxLib/DxLib.h"
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
     // ウインドウモードで起動
