@@ -25,3 +25,11 @@ OBJS=main.cpp
 
 $(TARGET): $(OBJS)
 	$(CXX) $(INCDIR) $(LIBDIR) -o $(TARGET) $(OBJS) $(LIBS)
+	
+all: $(TARGET)
+
+run: all
+	./$(TARGET)
+	
+clean:
+	rm $(TARGET)
